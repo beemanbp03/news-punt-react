@@ -6,9 +6,9 @@ const NewsCard = () => {
 
     return (
     <Fragment>
-        <a class="news-card">
+        <a className="news-card">
             <h2>Example Title</h2>
-            <img class="news-card-thumbnail" src={logo} />
+            <img className="news-card-thumbnail" src={logo} />
             <p>Publish Date</p>
         </a>
     </Fragment>
