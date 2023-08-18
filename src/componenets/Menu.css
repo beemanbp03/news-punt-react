@@ -1,0 +1,37 @@
+body {
+    color: green;
+}
+
+.ui {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    outline: 1px solid black;
+    width: 100%;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.filter a {
+    outline: 1px solid black;
+    width: 100%;    
+}
